@@ -31,6 +31,7 @@ flutter test
 
 ## Estrutura do projeto
 
+```bash
 lib/
 ├── models/
 │   └── simulacao_investimentos.dart
@@ -42,5 +43,6 @@ lib/
 ├── widgets/
 │   └── secao_formulario_investimento.dart
 └── main.dart
+```
 
 O projeto mantém a estrutura padrão multiplataforma gerada pelo Flutter. A tela inicial usa `Form`, `TextFormField` e `setState`/navegação com `Navigator`; os resultados usam `ListView` para que simulações longas permaneçam responsivas.
