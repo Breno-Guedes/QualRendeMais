@@ -1,4 +1,4 @@
-# Comparador de Investimentos
+# QualRende+
 
 Aplicativo Flutter didático para comparar dois investimentos com juros compostos e aportes mensais.
 
