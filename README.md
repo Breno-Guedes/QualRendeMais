@@ -29,4 +29,18 @@ flutter analyze
 flutter test
 ```
 
+## Estrutura do projeto
+
+lib/
+├── models/
+│   └── simulacao_investimentos.dart
+├── paginas/
+│   ├── pagina_inicial.dart
+│   └── pagina_resultados.dart
+├── utils/
+│   └── formatador_moeda.dart
+├── widgets/
+│   └── secao_formulario_investimento.dart
+└── main.dart
+
 O projeto mantém a estrutura padrão multiplataforma gerada pelo Flutter. A tela inicial usa `Form`, `TextFormField` e `setState`/navegação com `Navigator`; os resultados usam `ListView` para que simulações longas permaneçam responsivas.
